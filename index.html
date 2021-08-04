@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Module 2 Assignment</title>
+<style>
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}	
+body {
+	background-color: blue;
+}
+
+#box1 {
+	background-color: red;
+	padding: 10px;
+	border: 2px solid white;
+	height: 200px;
+	
+	overflow: hidden;
+}
+
+#box2 {
+	background-color: pink;
+	padding: 10px;
+	border: 2px solid white;
+	height: 200px;
+	
+	overflow: hidden;
+}
+
+#box3 {
+	background-color: green;
+	padding: 10px;
+	border: 2px solid white;
+	height: 200px;
+	
+	overflow: hidden;
+}
+
+#sectionTitle {
+	background-color: gray;
+	width: 20%;
+	height: 25%;
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;
+	float: right;
+	padding-top: 5px; 
+	margin-top: -12px;
+	margin-right: -10px;
+}
+
+#content {
+	margin-top: 40px;
+}
+
+h1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-style: italic;
+	text-align: center;
+}
+
+/*Desktop devices*/
+@media (min-width: 992px) {
+	#box1 {
+		width: 32%;
+		float: left;
+		margin-left: 1.5%;
+		
+	}
+	#box2 {
+		width: 32%;
+		float: left;
+		margin-left: 0.5%;
+	}
+	#box3 {
+		width: 32%;
+		float: left;
+		margin-left: 0.5%;
+	}
+	#sectionTitle {
+		width: 35%
+	}
+}
+
+/*Tablet devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+	* {
+		margin: 1%;
+	}
+	#box1 {
+		width: 48%;
+		float: left;
+	}
+	#box2 {
+		width: 48%;
+		float: left;
+	}
+	#box3 {
+		width: 98%;
+		float: left;
+
+	}
+	#sectionTitle {
+		width: 35%
+	}
+}
+
+/*Phone devices*/
+@media (max-width: 767px) {
+	* {
+		margin: 2%;
+	}
+
+	#sectionTitle {
+		width: 35%
+	}
+}
+
+</style>
+
+</head>
+<body>
+
+<h1><center>Animals</h1>
+
+<div id="box1">
+	<h2 id="sectionTitle">Crabs</h2>
+		<div id="content">
+		Call me crabs with a C Call me crabs with a C Call me crabs with a C Call me crabs with a C Call me crabs with a C Call me crabs with a C Call me crabs with a C Call me crabs with a C Call me crabs with a C Call me crabs with a C Call me crabs with a C Call me crabs with a C Call me crabs with a C Call me crabs with a C  
+	</div>
+</div>
+
+<div id="box2">
+	<h2 id="sectionTitle">Flamingo</h2>
+		<div id="content">
+		I am, in fact, the flamingo. I am, in fact, the flamingo. I am, in fact, the flamingo. I am, in fact, the flamingo. I am, in fact, the flamingo. I am, in fact, the flamingo. I am, in fact, the flamingo. I am, in fact, the flamingo. I am, in fact, the flamingo. I am, in fact, the flamingo. I am, in fact, the flamingo. 
+	</div>
+</div>
+
+<div id="box3">
+	<h2 id="sectionTitle">Turtle</h2>
+		<div id="content">
+		What it do? it's your boy, the turtle What it do? it's your boy, the turtle What it do? it's your boy, the turtle What it do? it's your boy, the turtle What it do? it's your boy, the turtle What it do? it's your boy, the turtle What it do? it's your boy, the turtle What it do? it's your boy, the turtle.
+	</div>
+
+</div>
+</body>
+</html>
